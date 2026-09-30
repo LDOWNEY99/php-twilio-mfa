@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'username' => $user['username'],
             'phone' => $user['phone']
         ];
-print_r($user);
+
         try {
             $twilio
                 ->verify
